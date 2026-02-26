@@ -11,17 +11,17 @@ const content = {
             greeting: "Halo, Saya",
             name: "Dimas Arya Arjuna",
             tagline: "Product Developer | Machine Learning Enthusiast",
-            bio: "Mahasiswa Semester 3 yang berfokus pada pengembangan solusi digital yang inovatif. Aktif sebagai Asisten Dosen dan memiliki minat mendalam pada AI & Machine Learning.",
+            bio: "Mahasiswa Semester 6 yang berfokus pada pengembangan solusi digital yang inovatif. Aktif sebagai Asisten Dosen dan memiliki minat mendalam pada AI & Machine Learning.",
             viewProjects: "Lihat Proyek",
             downloadCv: "Unduh CV"
         },
         about: {
             title: "Tentang Saya",
             badge: "Kenali Saya Lebih Dekat",
-            mainDescription: "Halo! Saya Dimas Arya Arjuna, seorang mahasiswa Semester 3 yang berdedikasi tinggi dalam mengeksplorasi dunia pengembangan produk digital.",
+            mainDescription: "Halo! Saya Dimas Arya Arjuna, seorang mahasiswa Semester 6 yang berdedikasi tinggi dalam mengeksplorasi dunia pengembangan produk digital.",
             subDescription: "Fokus utama saya saat ini adalah membangun antarmuka pengguna yang intuitif (Frontend) dan mendalami kecerdasan buatan (Machine Learning). Aktif sebagai Asisten Dosen, saya senang berbagi pengetahuan dan berkolaborasi dalam tim yang dinamis.",
             stats: [
-                { value: "3", label: "Semester" },
+                { value: "6", label: "Semester" },
                 { value: "10+", label: "Proyek" },
                 { value: "5+", label: "Sertifikat" }
             ]
@@ -89,17 +89,17 @@ const content = {
             greeting: "Hello, I am",
             name: "Dimas Arya Arjuna",
             tagline: "Product Developer | Machine Learning Enthusiast",
-            bio: "3rd-semester student focused on developing innovative digital solutions. Currently serving as a Teaching Assistant with a deep interest in AI & Machine Learning.",
+            bio: "A 6th-semester student focused on developing innovative digital solutions. Active as a Teaching Assistant with a deep interest in AI & Machine Learning.",
             viewProjects: "View Projects",
             downloadCv: "Download CV"
         },
         about: {
             title: "About Me",
             badge: "Get to Know Me Better",
-            mainDescription: "Hello! I am Dimas Arya Arjuna, a 3rd-semester student highly dedicated to exploring the world of digital product development.",
+            mainDescription: "Hello! I am Dimas Arya Arjuna, a 6th-semester student highly dedicated to exploring the world of digital product development.",
             subDescription: "My current focus is building intuitive user interfaces (Frontend) and diving deep into artificial intelligence (Machine Learning). As a Teaching Assistant, I enjoy sharing knowledge and collaborating in dynamic teams.",
             stats: [
-                { value: "3", label: "Semesters" },
+                { value: "6", label: "Semesters" },
                 { value: "10+", label: "Projects" },
                 { value: "5+", label: "Certificates" }
             ]
@@ -264,35 +264,35 @@ const experienceData = [
     },
     {
         id: 2,
-        title: { id: "Website Dojo Shindoka (HKI)", en: "Dojo Shindoka Website (Copyright)" },
-        year: "2023",
+        title: { id: "Website Dojo Shindoka (PKM Dosen)", en: "Dojo Shindoka Website (Lecturer's PKM)" },
+        year: "2025",
         type: "Project",
         icon: "bi-award",
         description: {
-            id: "Terlibat dalam proyek PKM dosen yang menghasilkan Hak Kekayaan Intelektual untuk sistem manajemen karate.",
-            en: "Involved in a lecturer's PKM project that resulted in Intellectual Property Rights for a karate management system."
+            id: "Membangun sistem manajemen organisasi karate melalui skema PKM Dosen yang terdaftar sebagai HKI.",
+            en: "Building a karate organization management system through a Lecturer's PKM scheme registered as Intellectual Property (HKI)."
         }
     },
     {
         id: 3,
-        title: { id: "PKM Mahasiswa", en: "Student PKM" },
-        year: "2023",
-        type: "Organization",
-        icon: "bi-people",
+        title: { id: "PKM Dosen", en: "Lecturer's PKM" },
+        year: "2024 - 2025",
+        type: "Project",
+        icon: "bi-briefcase",
         description: {
-            id: "Berpartisipasi aktif dalam Program Kreativitas Mahasiswa sebagai pengembang solusi digital inovatif.",
-            en: "Actively participated in the Student Creativity Program as a developer of innovative digital solutions."
+            id: "Terlibat dalam berbagai program Pengabdian Kepada Masyarakat (PKM) dosen sebagai pengembang teknis.",
+            en: "Involved in various Lecturer's Community Service (PKM) programs as a technical developer."
         }
     },
     {
         id: 4,
-        title: { id: "Studi Independen: AI Developer", en: "Independent Study: AI Developer" },
-        year: "2023",
+        title: { id: "Studi Independen: Program ASAH (Dicoding)", en: "Independent Study: ASAH Program (Dicoding)" },
+        year: "2025 (Semester 5)",
         type: "Academic",
-        icon: "bi-robot",
+        icon: "bi-code-slash",
         description: {
-            id: "Mempelajari implementasi Machine Learning dan Neural Networks menggunakan TensorFlow di tingkat profesional.",
-            en: "Studying the implementation of Machine Learning and Neural Networks using TensorFlow at a professional level."
+            id: "Mengikuti program beasiswa ASAH dari Dicoding untuk pendalaman pengembangan software profesional.",
+            en: "Participated in the ASAH scholarship program from Dicoding for in-depth professional software development."
         }
     }
 ];

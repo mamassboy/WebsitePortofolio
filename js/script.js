@@ -47,7 +47,29 @@ function renderContent() {
         renderCertificatesGrid();
     } else if (path.includes('project-detail.html')) {
         renderProjectDetail();
+    } else if (path.includes('about.html')) {
+        renderAbout();
     }
+}
+
+function renderAbout() {
+    const statsContainer = document.getElementById('about-stats-container');
+    if (!statsContainer) return;
+
+    statsContainer.innerHTML = '';
+    const stats = content[currentLang].about.stats;
+
+    stats.forEach(stat => {
+        const col = document.createElement('div');
+        col.className = 'col-4 col-md-4';
+        col.innerHTML = `
+            <div class="stat-card">
+                <h4 class="fw-bold mb-1">${stat.value}</h4>
+                <p class="text-muted small mb-0">${stat.label}</p>
+            </div>
+        `;
+        statsContainer.appendChild(col);
+    });
 }
 
 function renderFilters() {

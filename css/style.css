@@ -57,6 +57,20 @@ body {
     filter: invert(var(--navbar-toggler-invert, 0));
 }
 
+.text-muted {
+    color: var(--text-muted) !important;
+}
+
+body.dark .lead,
+body.dark .card-text {
+    color: var(--text-color) !important;
+    opacity: 0.8;
+}
+
+body.dark .stat-card h4 {
+    color: var(--accent-color);
+}
+
 body.dark {
     --navbar-toggler-invert: 1;
 }
@@ -356,6 +370,78 @@ body.dark .marquee-logo-premium {
 
 .browser-mockup img {
     border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* About Page Styles */
+.about-img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.about-img-frame {
+    position: relative;
+    padding: 15px;
+    border: 2px solid var(--primary-color);
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+.about-img-frame::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, var(--accent-color) 0%, transparent 70%);
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.about-img-frame:hover {
+    transform: translateY(-10px) rotate(2deg);
+    box-shadow: 0 30px 60px rgba(208, 0, 0, 0.2);
+}
+
+.experience-badge {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    background: var(--primary-color);
+    color: white;
+    padding: 20px 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+.stat-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    border-color: var(--primary-color);
+    transform: scale(1.05);
 }
 
 /* Premium Project Cards */
