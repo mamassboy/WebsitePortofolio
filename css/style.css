@@ -547,3 +547,137 @@ a,
 button {
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
+/* ============================================================ */
+/*                RESPONSIVE DESIGN (Mobile First)             */
+/* ============================================================ */
+
+/* Mobile Phones (Portrait & Landscape) */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hero {
+        padding: 60px 0;
+        min-height: 100vh;
+        background-attachment: scroll;
+        /* Fixes iOS background issues */
+    }
+
+    .hero .display-3 {
+        font-size: 2.8rem;
+        letter-spacing: 2px;
+    }
+
+    .hero .tagline {
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+
+    .hero .bio {
+        font-size: 0.9rem;
+    }
+
+    /* Marquee Mobile */
+    .marquee-container-premium {
+        padding: 15px 0;
+    }
+
+    .marquee-logo-premium {
+        height: 35px;
+    }
+
+    .marquee-content-premium {
+        gap: 60px;
+    }
+
+    /* About Image Responsive */
+    .about-img-container {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .about-img-frame {
+        border-radius: 20px;
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    .experience-badge {
+        padding: 12px 18px;
+        bottom: -15px;
+        right: 15px;
+        border-radius: 12px;
+        font-size: 0.8rem;
+    }
+
+    /* Timeline Adjustments */
+    #experience-timeline {
+        padding-left: 30px;
+        border-left: 2px solid var(--primary-color);
+        margin-left: 10px;
+    }
+
+    #experience-timeline::before {
+        display: none;
+        /* Use border-left instead */
+    }
+
+    .timeline-item-modern {
+        padding-left: 0;
+        text-align: left !important;
+        margin-bottom: 30px;
+    }
+
+    .timeline-node {
+        left: -43px;
+        width: 24px;
+        height: 24px;
+        font-size: 0.7rem;
+    }
+
+    /* Section Spacing */
+    .py-5 {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+}
+
+/* Tablets (iPad, etc.) */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background: var(--bg-color);
+        padding: 20px;
+        border-radius: 15px;
+        margin-top: 15px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+        border: 1px solid var(--card-border);
+    }
+
+    .nav-link {
+        padding: 10px 0;
+        border-bottom: 1px dashed var(--card-border);
+    }
+
+    .nav-link:last-child {
+        border-bottom: none;
+    }
+
+    .browser-mockup {
+        border-radius: 8px;
+    }
+}
+
+/* Smooth Scrolling & Extra Padding */
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
