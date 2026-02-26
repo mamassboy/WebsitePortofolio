@@ -186,67 +186,37 @@ const projectsData = [
             repo: "#"
         },
         skillsImproved: ["UI/UX Design", "Project Management", "Leadership"],
-        image: "assets/images/shindoka-landing.png"
+        image: "aset/image.png"
     },
     {
-        slug: "ai-skin-analyzer",
-        title: { id: "AI Skin Analyzer", en: "AI Skin Analyzer" },
-        year: "2024",
-        role: { id: "ML Engineer", en: "ML Engineer" },
-        category: "AI / ML",
+        slug: "codibot-ai",
+        title: { id: "Codibot AI", en: "Codibot AI" },
+        year: "2025",
+        role: { id: "AI & Fullstack Developer", en: "AI & Fullstack Developer" },
+        category: "AI / Web",
         shortDescription: {
-            id: "Aplikasi deteksi kesehatan kulit menggunakan Computer Vision dan TensorFlow.",
-            en: "Skin health detection app using Computer Vision and TensorFlow."
+            id: "Chatbot bimbingan cerdas untuk meningkatkan efektivitas belajar siswa Dicoding.",
+            en: "Smart guidance chatbot to improve Dicoding students' learning effectiveness."
         },
         fullDescription: {
-            id: "Sistem cerdas untuk menganalisis kondisi kulit wajah melalui foto menggunakan model Deep Learning.",
-            en: "Intelligent system for analyzing facial skin conditions via photos using Deep Learning models."
+            id: "Codibot adalah hasil dari capstone project Studi Independen di Dicoding yang bertujuan untuk menjaga motivasi belajar siswa agar tetap stabil dengan interaksi personal dan monitoring khusus.",
+            en: "Codibot is the result of an Independent Study capstone project at Dicoding, aimed at keeping student learning motivation stable with personal interaction and specific monitoring."
         },
         problem: {
-            id: "Sulitnya akses awal ke diagnosis kesehatan kulit yang cepat dan terjangkau.",
-            en: "Difficult initial access to rapid and affordable skin health diagnosis."
+            id: "Menurunnya tingkat keaktifan dan pemahaman siswa saat memasuki fase pertengahan hingga akhir program belajar.",
+            en: "Declining student activity and understanding when entering the middle to late phases of the learning program."
         },
         solution: {
-            id: "Implementasi model CNN yang dilatih dengan ribuan data gambar untuk mengklasifikasi jenis masalah kulit secara instan.",
-            en: "Implementation of a CNN model trained with thousands of images to instantly classify types of skin issues."
+            id: "Mengimplementasikan chatbot interaktif yang memberikan rekomendasi personal berbasis AI guna membantu siswa memahami diri dan progres belajarnya.",
+            en: "Implementing an interactive chatbot that provides personal AI-based recommendations to help students understand themselves and their learning progress."
         },
-        techStack: ["Python", "TensorFlow", "React Native"],
+        techStack: ["Python", "JavaScript", "SQL", "Google Colab", "Figma"],
         links: {
-            demo: "#",
-            repo: "https://github.com/dimas-arya-arjuna"
+            demo: "https://codibot.netlify.app/chatbot.html",
+            repo: "#"
         },
-        skillsImproved: ["Machine Learning", "Mobile Dev", "Data Processing"],
-        image: "https://images.unsplash.com/photo-1576091160550-217359f41f48?q=80&w=1200&h=600&fit=crop"
-    },
-    {
-        slug: "smart-inventory-iot",
-        title: { id: "Smart Inventory IoT", en: "Smart Inventory IoT" },
-        year: "2024",
-        role: { id: "Fullstack Developer", en: "Fullstack Developer" },
-        category: "IoT",
-        shortDescription: {
-            id: "Sistem pelacakan stok barang real-time menggunakan sensor dan dashboard web.",
-            en: "Real-time stock tracking system using sensors and web dashboard."
-        },
-        fullDescription: {
-            id: "Dashboard monitoring stok barang yang terhubung dengan modul ESP32 dan berbagai sensor fisik.",
-            en: "Stock monitoring dashboard connected to ESP32 modules and various physical sensors."
-        },
-        problem: {
-            id: "Inakurasi pencatatan stok manual di gudang yang menyebabkan kerugian finansial.",
-            en: "Inaccuracy in manual stock recording in warehouses causing financial losses."
-        },
-        solution: {
-            id: "Sistem IoT yang mencatat perubahan stok secara otomatis dan memperbarui dashboard secara real-time.",
-            en: "IoT system that records stock changes automatically and updates the dashboard in real-time."
-        },
-        techStack: ["Node.js", "MQTT", "Next.js"],
-        links: {
-            demo: "#",
-            repo: "https://github.com/dimas-arya-arjuna"
-        },
-        skillsImproved: ["Hardware Integration", "Real-time Data", "Fullstack Dev"],
-        image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200&h=600&fit=crop"
+        skillsImproved: ["Artificial Intelligence", "Natural Language Processing", "Fullstack Development"],
+        image: "aset/codibot.jpeg"
     }
 ];
 
